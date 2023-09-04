@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/option_new"
+        android:icon="@drawable/baseline_create_new_folder_24"
+        android:title="New"
+        />
+    <item
+        android:id="@+id/option_open"
+        android:icon="@drawable/baseline_folder_open_24"
+        android:title="Open"
+        />
+    <item
+        android:id="@+id/option_share"
+        android:icon="@drawable/baseline_share_24"
+        android:title="Share"
+        />
+    <item
+        android:id="@+id/option_home"
+        android:enabled="true"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Home"
+        android:visible="true"
+        app:showAsAction="always" />
+
+
+</menu>
